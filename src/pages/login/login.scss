@@ -19,6 +19,13 @@ page-login {
     .foot-text{ 
       text-align: center;
     }
+    input[type="password"],input[type="email"]{
+      color: white;
+      height: 30px;
+    }
+    .list-md .item-input:last-child{
+      border-bottom: none !important;
+    }
 
     ion-item{
       background: transparent;
@@ -31,6 +38,12 @@ page-login {
     } 
     .facebook-btn{
       background:#4b3a9b;
+    }
+    .input-wrapper{
+      border-bottom: 1px solid #dedede;
+    }
+    .item-inner{
+      border-bottom: none !important;
     }
   }
 

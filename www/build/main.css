@@ -21303,6 +21303,24 @@ ion-title {
   color: white !important;
 }
 
+.ion-md-shopIcon,
+.ion-ios-shopIcon,
+.ion-ios-shopIcon-outline {
+  content: url(../assets/images/tab-shopIcon.png);
+  padding: 6px 4px 2px;
+  margin: 5px;
+  opacity: 0.9;
+}
+
+.ion-md-shopIconActive,
+.ion-ios-shopIconActive,
+.ion-ios-shopIconActive-outline {
+  content: url(../assets/tab-shopIconActive.png);
+  padding: 6px 4px 2px;
+  margin: 5px;
+  opacity: 0.9;
+}
+
 page-cart .container {
   background: whitesmoke;
 }
@@ -21317,6 +21335,7 @@ page-cart .container .selected-item {
 page-cart .container .selected-item .fire {
   width: 18px;
   height: 19px;
+  margin-right: 5px;
 }
 
 page-cart .container .selected-item .price-div {
@@ -21336,6 +21355,7 @@ page-cart .container .selected-item .price-div .price {
 page-cart .container .selected-item .product-name {
   text-align: left;
   font-size: 17px;
+  margin-top: -10px;
 }
 
 page-cart .container .selected-item ion-icon {
@@ -21408,6 +21428,11 @@ page-catalog .container .list-div .item-md .item-inner {
   border: none !important;
 }
 
+page-catalog .container .catalog-image {
+  height: 120px;
+  width: 140px;
+}
+
 page-catalog .container .card-title {
   position: absolute;
   top: 36%;
@@ -21423,6 +21448,8 @@ page-catalog .container .card-subtitle {
   top: 52%;
   width: 100%;
   color: #fff;
+  text-align: left;
+  margin-left: 3px;
 }
 
 page-catalog .container ion-col {
@@ -21551,7 +21578,7 @@ page-image .info {
 }
 
 page-image .info .thumbnail {
-  height: 165px !important;
+  height: 130px !important;
 }
 
 page-image .info .item-inner {
@@ -21599,6 +21626,15 @@ page-login .login .foot-text {
   text-align: center;
 }
 
+page-login .login input[type="password"], page-login .login input[type="email"] {
+  color: white;
+  height: 30px;
+}
+
+page-login .login .list-md .item-input:last-child {
+  border-bottom: none !important;
+}
+
 page-login .login ion-item {
   background: transparent;
 }
@@ -21613,6 +21649,14 @@ page-login .login .enter-btn {
 
 page-login .login .facebook-btn {
   background: #4b3a9b;
+}
+
+page-login .login .input-wrapper {
+  border-bottom: 1px solid #dedede;
+}
+
+page-login .login .item-inner {
+  border-bottom: none !important;
 }
 
 page-my-profile .user-info-item .user-info .item-inner {
@@ -21757,6 +21801,11 @@ page-store .main .list-div {
   border: 1px solid #dedede;
   border-radius: 8px;
   margin-top: 10px;
+}
+
+page-store .main .list-div ion-thumbnail img {
+  width: 65px !important;
+  height: 80px !important;
 }
 
 page-store .main .list-div .item-md {

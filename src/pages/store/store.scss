@@ -18,6 +18,11 @@ page-store {
       border-radius: 8px;
       margin-top:10px;
 
+      ion-thumbnail img{
+        width: 65px !important;
+        height: 80px !important
+      }
+
       .item-md{ 
         background: transparent;
 

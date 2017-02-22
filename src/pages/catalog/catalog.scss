@@ -36,6 +36,10 @@ page-catalog {
 
       }  
     }
+    .catalog-image{
+      height: 120px;
+      width: 140px;
+    }
 
     .card-title {
       position: absolute;
@@ -52,6 +56,8 @@ page-catalog {
       top: 52%;
       width: 100%;
       color: #fff;
+      text-align: left;
+      margin-left: 3px;
     }
     
 
