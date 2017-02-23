@@ -21312,28 +21312,10 @@ ion-tabs .ion-ios-homeIcon-outline {
   opacity: 0.9;
 }
 
-ion-tabs .ion-md-homeIconActive,
-ion-tabs .ion-ios-homeIconActive,
-ion-tabs .ion-ios-homeIconActive-outline {
-  content: url(../assets/tab-homeIconActive.png);
-  padding: 6px 4px 2px;
-  margin: 5px;
-  opacity: 0.9;
-}
-
 ion-tabs .ion-md-chatIcon,
 ion-tabs .ion-ios-chatIcon,
 ion-tabs .ion-ios-chatIcon-outline {
   content: url(../assets/images/tab-chatIcon.png);
-  padding: 6px 4px 2px;
-  margin: 5px;
-  opacity: 0.9;
-}
-
-ion-tabs .ion-md-chatIconActive,
-ion-tabs .ion-ios-chatIconActive,
-ion-tabs .ion-ios-chatIconActive-outline {
-  content: url(../assets/tab-chatIconActive.png);
   padding: 6px 4px 2px;
   margin: 5px;
   opacity: 0.9;
@@ -21348,15 +21330,6 @@ ion-tabs .ion-ios-shopIcon-outline {
   opacity: 0.9;
 }
 
-ion-tabs .ion-md-shopIconActive,
-ion-tabs .ion-ios-shopIconActive,
-ion-tabs .ion-ios-shopIconActive-outline {
-  content: url(../assets/tab-shopIconActive.png);
-  padding: 6px 4px 2px;
-  margin: 5px;
-  opacity: 0.9;
-}
-
 ion-tabs .ion-md-profileIcon,
 ion-tabs .ion-ios-profileIcon,
 ion-tabs .ion-ios-profileIcon-outline {
@@ -21366,13 +21339,20 @@ ion-tabs .ion-ios-profileIcon-outline {
   opacity: 0.9;
 }
 
-ion-tabs .ion-md-profileIconActive,
-ion-tabs .ion-ios-profileIconActive,
-ion-tabs .ion-ios-profileIconActive-outline {
-  content: url(../assets/tab-profileIconActive.png);
-  padding: 6px 4px 2px;
-  margin: 5px;
-  opacity: 0.9;
+ion-tabs #tab-t0-0 ion-icon[ng-reflect-is-active="true"] {
+  content: url(../assets/images/tab-homeIcon-Active.png);
+}
+
+ion-tabs #tab-t0-1 ion-icon[ng-reflect-is-active="true"] {
+  content: url(../assets/images/tab-chatIcon-Active.png);
+}
+
+ion-tabs #tab-t0-3 ion-icon[ng-reflect-is-active="true"] {
+  content: url(../assets/images/tab-shopIcon-Active.png);
+}
+
+ion-tabs #tab-t0-4 ion-icon[ng-reflect-is-active="true"] {
+  content: url(../assets/images/tab-profileIcon-Active.png);
 }
 
 page-cart .container {
